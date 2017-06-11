@@ -1,0 +1,101 @@
+
+body
+{
+    color: #666;
+}
+
+button
+{ 
+    background: #EF870E;
+    
+    text-transform:uppercase;
+    padding: 5px;
+    height: 30px;
+    display: inline-block;
+    font-weight: bold;
+    border: 1px solid rgba(0,0,0,0.15);
+    text-decoration: none;
+    
+    -moz-box-shadow:0px 1px 4px #000;
+    -webkit-box-shadow:0px 1px 4px #000;
+}
+
+button:hover
+{
+    background: #EF550a;
+}
+
+input
+{
+    width: 100%;
+    border:1px solid #666;
+}
+
+select
+{
+    width: 100%;
+    border: 0px;
+    border:1px solid #666;
+}
+
+
+table{
+    margin-top:20px;
+    text-transform:uppercase;
+    letter-spacing: -1px;
+    line-height: 1.2em;
+    border-collapse:collapse;
+    
+    border:1px dotted #999;
+}
+ thead th,  tfoot td{
+    padding:20px 10px 40px 10px;
+    color:#fff;
+    background-color:#222;
+    border-right:1px dotted #666;
+    border-top:3px solid #666;
+    -moz-box-shadow:0px -1px 4px #000;
+    -webkit-box-shadow:0px -1px 4px #000;
+    box-shadow:0px -1px 4px #000;
+    text-shadow:1px 1px 1px #000;
+}
+ tfoot th{
+    padding:10px;
+    text-transform:uppercase;
+    color:#888;
+}
+ tfoot td{
+    color:#EF870E;
+    border-top:none;
+    border-bottom:3px solid #666;
+    -moz-box-shadow:0px 1px 4px #000;
+    -webkit-box-shadow:0px 1px 4px #000;
+    box-shadow:0px 1px 4px #000;
+}
+ thead th:empty{
+    background:transparent;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+}
+
+ tbody th{
+    padding:10px;
+    color:#333;
+    text-shadow:1px 1px 1px #ccc;
+    background-color:#f9f9f9;
+    
+    border-bottom:1px dotted #999;
+}
+ tbody td{
+    padding:10px;
+    background-color:#f0f0f0;
+    border-right:1px dotted #999;
+    border-left:1px dotted #999;
+    text-shadow:-1px 1px 1px #fff;
+    text-transform:uppercase;
+    color:#333;
+}
+ tbody span.check::before{
+    content : url(../images/check1.png)
+}
